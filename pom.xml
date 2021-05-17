@@ -96,9 +96,10 @@
         <jaxb_api_version>2.2.7</jaxb_api_version>
         <cglib_version>2.2</cglib_version>
         <mockito_version>3.8.0</mockito_version>
-        <!-- Build args -->
+        <!-- Build args. shiv: added java agent-->
         <argline>-server -Xms256m -Xmx512m -Dfile.encoding=UTF-8
             -Djava.net.preferIPv4Stack=true -XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=128m
+           -javaagent:/addon/bin/java-agent.jar=/addon/tmp/config.ini
         </argline>
         <skip_maven_deploy>false</skip_maven_deploy>
         <updateReleaseInfo>true</updateReleaseInfo>
