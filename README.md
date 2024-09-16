@@ -45,7 +45,7 @@ There's a [README](https://github.com/apache/dubbo-samples/tree/master/dubbo-sam
 <properties>
     <dubbo.version>2.7.10</dubbo.version>
 </properties>
-
+ 
 <dependencies>
     <dependency>
         <groupId>org.apache.dubbo</groupId>
