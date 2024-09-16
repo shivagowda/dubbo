@@ -21,7 +21,7 @@ We are now collecting Dubbo user info to help us to improve Dubbo further. Kindl
 
 ## Features
 
-* Transparent interface based RPC
+* Transparent interface based RPC 
 * Intelligent load balancing
 * Automatic service registration and discovery
 * High extensibility
