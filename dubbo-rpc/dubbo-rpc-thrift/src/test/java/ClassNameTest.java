@@ -22,7 +22,7 @@ import org.junit.jupiter.api.Test;
 public class ClassNameTest {
 
     @Test
-    public void testThriftUtils() {
+    public void testThriftUtils() { 
 
         Assertions.assertEquals($__ClassNameTestDubboStub.echo_args.class.getName(),
                 ThriftUtils.generateMethodArgsClassName(
